@@ -36,9 +36,9 @@
     const mode = parseInt(urlParams.get('mode')) || 0;
   
     const viewer = new GaussianSplats3D.Viewer({
-      'cameraUp': [	0.18033, -0.97921, -0.09294],
-      'initialCameraPosition': [	-5.03705, 1.93124, -0.91930],
-      'initialCameraLookAt': [-0.45898, 2.01457, -0.13175],
+      'cameraUp': [0.01325, -0.99915, 0.03909],
+      'initialCameraPosition': [4.51742, -5.44715, 14.44115],
+      'initialCameraLookAt': [-0.71882, -5.83566, -3.27480],
       'sphericalHarmonicsDegree': 2
     });
     let path = 'https://3dscanning.blob.core.windows.net/splats/Sallskapsrum' + (mode ? '_high' : '') + '.ksplat';
