@@ -43,7 +43,8 @@
     });
     let path = 'https://3dscanning.blob.core.windows.net/splats/Sallskapsrum' + (mode ? '_high' : '') + '.ksplat';
     viewer.addSplatScene(path, {
-      'progressiveLoad': true
+      'progressiveLoad': true,
+      'showLoadingUI' : true
     })
     .then(() => {
         viewer.start();
